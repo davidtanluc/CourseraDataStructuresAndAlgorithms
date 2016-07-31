@@ -5,7 +5,7 @@ import scala.annotation.tailrec
 /**
   * Created by davidtan on 7/15/16.
   */
-object FibHuge {
+object FibLastDigit {
   /**
     * F [ i ]=( F [i -1]+ F [i -2]) mod 10
     *        = F [i -1] mod 10 + F [i -2] mod 10
