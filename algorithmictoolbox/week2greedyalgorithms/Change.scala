@@ -33,15 +33,6 @@ object Change {
     }
     result
   }
-  /*
-  def greedyCoinChanging(M, k):
-    n = len(M)
-    result = []
-    for i in xrange(n - 1, -1, -1):
-        result += [(M[i], k // M[i])]
-        k %= M[i]
-    return result
-   */
 
   private def getChange3(amount: Int) = {
     var amount1 = amount
