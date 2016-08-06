@@ -9,7 +9,6 @@ object FractionalKnapsack {
   class Item protected (val value:Int, val weight:Int,val value_per_unit:Double)
   object Item {
     def apply(value:Int,weight: Int) = {
-      //val pp1 = Math.round(value.toDouble / weight.toDouble * 10000.0) / 10000.0
       val pp1 =value.toDouble / weight.toDouble
       new Item(value,weight,pp1)
     }
