@@ -39,7 +39,7 @@ object connectedcomponents {
       adj(x - 1).add(y - 1)
       adj(y - 1).add(x - 1)
     }
-
+////List([1, 3], [0, 2], [1, 3], [2, 0])
     System.out.println(numberOfComponents(adj))
     scanner.close()
 

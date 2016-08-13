@@ -35,6 +35,7 @@ object reachability1 {
       adj(x - 1).add(y - 1)
       adj(y - 1).add(x - 1)
     }
+//println(adj.toList)//List([1, 3], [0, 2], [1, 3], [2, 0])
 
     val x: Int = scanner.nextInt - 1
     val y: Int = scanner.nextInt - 1
