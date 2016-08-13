@@ -47,6 +47,14 @@ object reachability1 {
 
 /*
 
+
+Input Format.
+
+An undirected graph with n vertices and m edges.
+The next line contains two vertices u and v of the graph.
+
+Output 1 if there is a path between u and v and 0 otherwise.
+
 10 August 2016
 Good job! (Max time used: 0.76/3.00, max memory used: 45273088/536870912.)
 
@@ -61,6 +69,12 @@ Good job! (Max time used: 0.76/3.00, max memory used: 45273088/536870912.)
 1 4
 
 1 4
+
+
+                                4 -  3      3 - 2
+                                |    |  ==> |   |
+                                1 -  2      0 - 1
+Output:
 1
 
 //////
@@ -71,5 +85,10 @@ Good job! (Max time used: 0.76/3.00, max memory used: 45273088/536870912.)
 3 2
 
 1 4
+
+
+                             4     3
+                                   |
+                             1  -  2
 0
  */
