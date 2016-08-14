@@ -16,7 +16,8 @@ object connectedcomponents1 {
         visited
       else {
         val neighbours:List[Vertex] = adj(v) filterNot visited.contains
-        neighbours.foldLeft(v :: visited)((b,a) => {DFS0(a,b)})
+
+        neighbours.foldLeft(v :: visited)((acc,a) => {DFS0(a,acc)})
       }
     }
 
