@@ -94,4 +94,8 @@ Output any topological ordering of its vertices.
 
 5 3
 
+
+http://www.cs.usfca.edu/~galles/visualization/TopoSortDFS.html
+http://www.cs.usfca.edu/~galles/visualization/TopoSortIndegree.html
+
  */

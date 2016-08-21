@@ -3,6 +3,22 @@ import java.util.Scanner
 
 /**
   * Created by davidtan on 8/15/16.
+  http://www.cs.usfca.edu/~galles/visualization/ConnectedComponent.html
+
+  Problem Introduction
+
+  The police department of a city has made all streets one-way. Eou would like
+
+  to check whether it is still possible to drive legally from any intersection to
+
+  any other intersection. For this, you construct a directed graph: vertices are
+
+  intersections, there is an edge (u, v) whenever there is a (one-way) street from
+
+  u to v in the city. Then, it suffices to check whether all the vertices in the
+
+  graph lie in the same strongly connected component.
+
   */
 object stronglyconnectedcomp {
 
