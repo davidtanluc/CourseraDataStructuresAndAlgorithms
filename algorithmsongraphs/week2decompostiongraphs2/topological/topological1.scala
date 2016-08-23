@@ -7,7 +7,7 @@ import java.util.{Collections, Scanner}
   *
   * Now, when you are sure that there are no cyclic dependencies in the given CS curriculum, you would like to
 
-  *find an order of all courses that is consistent with all dependencies. For this, you find a topological ordering
+  * find an order of all courses that is consistent with all dependencies. For this, you find a topological ordering
 
    *of the corresponding directed graph.
   */
@@ -97,5 +97,31 @@ Output any topological ordering of its vertices.
 
 http://www.cs.usfca.edu/~galles/visualization/TopoSortDFS.html
 http://www.cs.usfca.edu/~galles/visualization/TopoSortIndegree.html
+
+List([1, 4, 7, 5, 8], [7], [1, 9, 5], [], [3, 2], [], [5, 9], [3], [6, 3, 4], [1, 7, 3])
+1 9 7 5 3 6 10 2 8 4
+
+10 20
+10 2
+10 8
+5 4
+3 2
+8 4
+10 4
+1 2
+9 7
+2 8
+3 10
+7 6
+1 5
+1 8
+1 6
+1 9
+3 6
+7 10
+9 4
+9 5
+5 3
+
 
  */
