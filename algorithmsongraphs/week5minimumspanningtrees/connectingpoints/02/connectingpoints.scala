@@ -15,7 +15,10 @@ object connectingpoints {
 
     private var parents: Array[Int] = null
     private var ranks: Array[Int] = null
-
+/*
+Important property: for any node i, rank[i] is
+equal to the height of the tree rooted at i
+*/
     def this(n: Int) {
       this()
       parents = new Array[Int](n)
