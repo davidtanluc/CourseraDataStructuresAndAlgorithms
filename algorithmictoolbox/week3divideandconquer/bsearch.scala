@@ -1,9 +1,18 @@
 import java.util.Scanner
 
-/**
+/** Runtime
+    T(n) = T(n/2) + c
+    Using master theorem
+    a = 1,b=2,d=0
+    Since d = logb (a)
+    O(n^d log (n) )
+    = log (n)
+
   * Created by davidtan on 8/12/16.
   */
 object bsearch {
+
+}
   private def linearSearch(a: Array[Int], target: Int): Int = {
 
     for (i <- a.indices) if (a(i) == target) return i
