@@ -1,0 +1,70 @@
+•  m = bucketCount
+
+• check i output the content of the i-th list in the table. Use spaces to separate the elements of
+
+   the list. If i-th list is empty, output a blank line.
+
+Sample 1.
+
+Input:
+
+5
+
+12
+
+add world
+
+add HellO
+
+check 4
+
+find World
+
+find world
+
+del world
+
+check 4
+
+del HellO
+
+add luck
+
+add GooD
+
+check 2
+
+del good
+
+Output:
+
+HellO world
+
+no
+
+yes
+
+HellO
+
+GooD luck
+
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////
+Explanation:
+
+The ASCII code of ’w’ is 119, for ’o’ it is 111, for ’r’ it is 114, for ’l’ it is 108, and for ’d’ it is 100. Thus,
+
+h(‘‘world") = (119 + 111×263 + 114×263^2 + 108×263^3 + 100×263^4 mod 1 000 000 007) mod 5 = 4.
+
+It turns out that the hash value of HellO is also 4. Recall that we always insert in the beginning of
+
+the chain, so after adding “world” and then “HellO” in the same chain index 4, first goes “HellO”
+
+and then goes “world”. Of course, “World” is not found, and “world” is found, because the strings
+
+are case-sensitive, and the codes of ’W’ and ’w’ are different.
+
+After deleting “world”, only “HellO” is
+
+found in the chain 4. Similarly to “world” and “HellO”, after adding “luck” and “GooD” to the same
+
+chain 2, first goes “GooD” and then “luck”.
