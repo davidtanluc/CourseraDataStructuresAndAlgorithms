@@ -1,7 +1,7 @@
 /**
   * Created by davidtan on 9/7/16.
   */
-object rabin3 {
+object rabin_karp {
 
   def ord(c: Char): Int = {
     var res = 0
