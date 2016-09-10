@@ -148,6 +148,24 @@ Good job! (Max time used: 5.45/12.00, max memory used: 134062080/536870912.)
 0 70 50 40 30 80 90 20 60 10
 50 80 90 30 40 70 10 60 20 0
 
+Input Format. The first line contains the number of vertices n. The vertices of the tree are numbered
 
+from 0 to n − 1. Vertex 0 is the root.
+
+The next n lines contain information about vertices 0, 1, ..., n−1 in order. Each of these lines contains
+
+three integers
+
+keyi, lefti and righti — keyi
+
+is the key of the i-th vertex, lef ti
+
+is the index of the left
+
+child of the i-th vertex, and righti
+
+is the index of the right child of the i-th vertex. If i doesn’t have
+
+left or right child (or both), the corresponding lef ti or righti (or both) will be equal to −1.
 
  */
