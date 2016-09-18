@@ -12,6 +12,7 @@ object tree_height {
       var height:Int = 0
       var i = vertex //0 ,1,2,3,4
 
+      //// bottom up approach //////
       while (i != -1) {
         height += 1
         i = parent(i) // Array(4, -1, 4, 1, 1);; 0->4
