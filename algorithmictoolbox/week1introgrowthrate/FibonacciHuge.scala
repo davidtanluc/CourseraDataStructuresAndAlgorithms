@@ -28,6 +28,8 @@ object FibonacciHuge {
 
 }
 /*
+19 September 2016
+Good job! (Max time used: 0.66/3.00, max memory used: 42987520/536870912.)
 Sample 1.
 
 Input:
